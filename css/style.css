@@ -290,7 +290,7 @@ b, strong {
 }
 
 .dark-mode {
-  background: #0c0c0d;
+  background: #000000;
 }
 .dark-mode .navbar-light .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.8);
@@ -307,8 +307,7 @@ b, strong {
   color: #ffffff;
 }
 .dark-mode footer {
-  background-color: #0c0c0d;
-  /* Adjust the background color as needed */
+  background-color: #000000;
   color: #ffffff;
   /* Text color for dark mode */
 }
@@ -323,7 +322,16 @@ b, strong {
 .dark-mode .owl-carousel button.owl-dot {
   color: #ffffff;
 }
-
+.dark-mode .about-text p,
+.dark-mode .leadership h2,
+.dark-mode .leadership ul,
+.dark-mode .volunteering h2,
+.dark-mode .volunteering ul,
+.dark-mode .timeline-info p,
+.dark-mode .timeline-info small {
+  color: #ddd7d7;
+  /* Change to white */
+}
 .timeline-wrapper {
   position: relative;
   padding: 22px 0;
@@ -589,7 +597,7 @@ b, strong {
   }
 }
 footer {
-  background-color: #00032e;
+  background-color: #01052c;
   color: #ffffff;
   padding: 2px 0;
   text-align: center;
